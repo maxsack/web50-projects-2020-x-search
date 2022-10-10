@@ -38,3 +38,77 @@ body {
     cursor: pointer;
     user-select: none;
 }
+
+.advheading1 {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.line {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.formcon {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.advheading2 {
+    color: #333;
+    font-size: 16px;
+    margin: 25px 35px;
+}
+
+.advphrase {
+    color: #222;
+    font-size: 13px;
+    margin-left: 35px;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+.rowinpt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 900px;
+}
+
+.lft {
+    width: 200px;
+}
+
+.rght {
+    width: 450px;
+    height: 29px;
+}
+
+.advinpt {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 100%;
+}
+
+.advbtn {
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0;
+    padding: 0 8px;
+}
+
+.btnpos {
+    display: flex;
+    justify-content: flex-end;
+}
