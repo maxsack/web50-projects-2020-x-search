@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT">
+        <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"></script>
+        <link href="static/styles.css" rel="stylesheet">
+
+        <title>Advanced Search</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                      <img src="img/Google_2015_logo.svg.webp" alt="Bootstrap" width="74" height="24">
+                    </a>
+                  </div>
+                <gdiv class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav ms-auto mt-2">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Search</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <p class="advheading1">Advanced Search</p>
+        <div class="line"></div>
+        <div class="formcon">
+            <p class="advheading2">Find pages with...</p>
+            <form action="https://google.com/search">
+                <div class="rowinpt">
+                    <div class="lft">
+                        <p class="advphrase">all these words:</p>
+                    </div>
+                    <div class="rght">
+                        <input class="advinpt" type="text" name="as_q">
+                    </div>
+                </div>
+                <div class="rowinpt">
+                    <div class="lft">
+                        <p class="advphrase">this exact word or phrase:</p>
+                    </div>
+                    <div class="rght">
+                        <input class="advinpt" type="text" name="as_epq">
+                    </div>
+                </div>
+                <div class="rowinpt">
+                    <div class="lft">
+                        <p class="advphrase">any of these words:</p>
+                    </div>
+                    <div class="rght">
+                        <input class="advinpt" type="text" name="as_oq">
+                    </div>
+                </div>
+                <div class="rowinpt">
+                    <div class="lft">
+                        <p class="advphrase">none of these words:</p>
+                    </div>
+                    <div class="rght">
+                        <input class="advinpt" type="text" name="as_eq">
+                    </div>
+                </div>
+                <div class="rowinpt">
+                    <div class="lft"></div>
+                    <div class="rght btnpos">
+                        <input class="advbtn btn btn-primary" type="submit" value="Advanced Search">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
